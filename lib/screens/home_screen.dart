@@ -106,7 +106,7 @@ final levels = ["Bachelor's", "Master's", "PhD"];
                             const Text(
                               "Your European\nStudy Journey\nStarts Here",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 18,
                                 fontWeight: FontWeight.w700,
                                 color: Colors.white,
                                 height: 1.2,
@@ -129,7 +129,7 @@ final levels = ["Bachelor's", "Master's", "PhD"];
                               child: const Text(
                                 "Explore Now",
                                 style: TextStyle(
-                                  fontSize: 11,
+                                  fontSize: 15,
                                   fontWeight: FontWeight.w600,
                                   color: Colors.black87,
                                 ),
@@ -144,25 +144,21 @@ final levels = ["Bachelor's", "Master's", "PhD"];
                 ),
               ),
 
-              const SizedBox(height: 5),
+              const SizedBox(height: 20),
 
               // Popular Destinations
               Column(
                 children: [
 
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-
-                      const Text("Popular destinations"),
-
-                      TextButton(
-                        onPressed: () {},
-                        child: const Text("View All"),
-                      ),
-
-                    ],
-                  ),
+               Row(
+  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+  children: [
+    Text("Popular Programmes",
+        style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+    Text("See All",
+        style: TextStyle(color: Colors.blue, fontWeight: FontWeight.w600)),
+  ],
+),
 
                   const SizedBox(height: 5),
 
