@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:studyyora/screens/home_screen.dart';
+import 'package:studyyora/screens/main_navigation_screen.dart';
 import 'package:studyyora/screens/sign_up.dart';
 import 'package:studyyora/theme/app_colors.dart';
 import 'package:studyyora/theme/app_text_styles.dart';
@@ -128,7 +128,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 48,
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen(),));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => MainNavigationScreen(),));
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: AppColors.primary,
